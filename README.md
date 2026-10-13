@@ -1,10 +1,27 @@
-# Rapid Food Delivery Dispatch
+# OR Food Delivery Fast Matching Routing and Repositioning
 
-外卖骑手快速分配、路径规划与重定位研究系统。
+运筹学方向的外卖骑手快速匹配、路径规划与重定位实验系统。
 
-An event-driven research simulator for fast courier assignment, pickup-and-delivery routing, and demand-aware repositioning in on-demand food delivery.
+An Operations Research (OR) experimental framework that adds demand-aware courier repositioning to fast order-to-courier matching and pickup-and-delivery routing.
 
-本项目研究订单动态到达时如何快速选择骑手、插入取送餐节点、修复预计迟到的路线，以及根据已观测需求调动空闲或即将完成服务的骑手。当前实现是可复现实验系统，尚未接入真实外卖平台、实时导航或生产调度服务。
+本项目属于运筹学中的动态取送货、骑手分配和车队重定位研究。实验以快速订单与骑手匹配及路径规划为基础，在保持分配与路径规划方法的基础上加入需求感知的重定位策略，通过有重定位与无重定位的成对实验检验其影响。快速匹配与规划控制计算开销，重定位尝试改善未来供需的空间分布，两者是本项目的重点。
+
+当前实现是可复现实验系统，尚未接入真实外卖平台、实时导航或生产调度服务。
+
+## 运筹学问题与实验设计
+
+决策分为三个相互关联的层次：订单分配给哪名骑手、取餐与送餐节点如何插入剩余路线，以及空闲或即将完成服务的骑手应移动到哪里。容量、取餐先于送餐和已承诺下一站是约束；距离、迟到和未服务订单构成加权优化目标。
+
+求解采用事件驱动贪心插入、有限候选搜索和局部路径修复。重定位层使用 Gamma-Poisson 需求预测与供需缺口评估，纳入移动时间、距离和预期收益限制。主要对照为 `code/` 的最终匹配与路径规划基准，以及 `repositioning/` 中相同参数下的 `none` 与 `gamma_poisson` 成对运行。
+
+```text
+动态订单到达
+    → 快速订单与骑手匹配
+    → 取送餐插入与局部路径规划
+    → 更新骑手位置、载单与服务状态
+    → 预测分区需求并规划重定位
+    → 为后续订单继续匹配与规划
+```
 
 ## 核心方法
 
@@ -20,14 +37,16 @@ An event-driven research simulator for fast courier assignment, pickup-and-deliv
 
 | 路径 | 内容 |
 |---|---|
-| `code/` | 工作总结中的最终分配与路径规划基准，默认关闭重定位 |
-| `repositioning/` | 原工作目录中较新的 Gamma-Poisson 重定位实验及成对比较脚本 |
+| `code/` | 快速匹配与路径规划基准，默认关闭重定位；含三组实验复现与结果校验入口 |
+| `repositioning/` | 项目重点实验：在匹配与路径规划上加入 Gamma-Poisson 重定位，含有无重定位及骑手规模比较 |
 | `fast_baseline/` | 2026-08-20 保留的快速基准，供历史对照 |
 | `data_global/` | 数据说明和原始使用限制；实际数据需在本地放置 |
 | `reference_results/` | 基准结果、重定位与顺路候选实验的汇总指标和参数 |
 | `docs/` | 项目方法、结果说明、整理记录和原始工作总结 |
 
 三个实现分别保留自己的 `baseline.py`，以便独立比较。不要在同一 Python 进程中混合导入它们；测试分别运行。
+
+推荐先阅读本页和 `docs/METHOD.md`，再查看 `code/run_baseline.py` 理解快速匹配与规划入口，随后查看 `repositioning/run_reposition_comparison.py` 理解重定位对照。核心算法位于两个目录各自的 `baseline.py`，已有结果及其限制见 `docs/RESULTS.md`。
 
 ## 安装
 
