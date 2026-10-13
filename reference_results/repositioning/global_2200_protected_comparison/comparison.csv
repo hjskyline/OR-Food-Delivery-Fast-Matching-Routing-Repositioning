@@ -1,0 +1,12 @@
+﻿metric,without_reposition,with_gamma_poisson,absolute_change,relative_change,evaluation
+Completion rate,1.0,1.0,0.0,0.0,No change
+On-time delivery rate,0.8490909090909091,0.8490909090909091,0.0,0.0,No change
+Rejected orders,0.0,0.0,0.0,,No change
+Late completed orders,332.0,332.0,0.0,0.0,No change
+Total lateness (min),8969.809399000967,8969.809399000967,0.0,0.0,No change
+Service-route distance (km),4877.685971013612,4876.3449967804045,-1.3409742332078167,-0.00027492016525392556,Improved
+Reposition distance (km),0.0,1.6583849928807903,1.6583849928807903,,Worsened
+Total distance (km),4877.685971013612,4878.003381773286,0.3174107596732938,6.50740456764858e-05,Worsened
+Weighted system objective,82926.73296601845,82927.05037677812,0.3174107596714748,3.8276047821821555e-06,Worsened
+Runtime (s),9.613919700001134,9.70909020002,0.09517050001886673,0.009899240163078906,Worsened
+Reposition moves,0.0,1.0,1.0,,Information

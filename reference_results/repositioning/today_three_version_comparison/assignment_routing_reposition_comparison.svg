@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1110" viewBox="0 0 1800 1110">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="900.0" y="61.0" text-anchor="middle" fill="#0B2F6B" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Assignment, Routing and Repositioning Performance Comparison</text>
+<text x="900.0" y="102.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400">17,867 orders · 800 riders · 20 km/h · Maximum 8 active orders per rider</text>
+<rect x="42" y="154" width="1716" height="794" rx="16" fill="#FFFFFF" stroke="#D8E2EE" stroke-width="2"/>
+<path d="M 58 154 H 1742 Q 1758 154 1758 170 V 228 H 42 V 170 Q 42 154 58 154 Z" fill="#0B2F6B"/>
+<text x="257.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Metric</text>
+<text x="591.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Before Improvement</text>
+<text x="840.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">After Improvement</text>
+<text x="1107.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">With Repositioning</text>
+<text x="1374.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Improvement Effect</text>
+<text x="1631.0" y="201.0" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Reposition Effect</text>
+<line x1="42" y1="228" x2="1758" y2="228" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="273.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Completion rate</text>
+<text x="591.0" y="273.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">99.37%</text>
+<text x="840.0" y="273.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">99.98%</text>
+<text x="1107.0" y="273.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">99.98%</text>
+<text x="1374.0" y="273.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+0.62 pp</text>
+<text x="1631.0" y="273.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">0.00 pp</text>
+<rect x="43" y="300" width="1714" height="72" fill="#F5F8FC"/>
+<line x1="42" y1="300" x2="1758" y2="300" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="345.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">On-time delivery rate</text>
+<text x="591.0" y="345.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">69.70%</text>
+<text x="840.0" y="345.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">77.68%</text>
+<text x="1107.0" y="345.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">77.67%</text>
+<text x="1374.0" y="345.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+7.98 pp</text>
+<text x="1631.0" y="345.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−0.006 pp</text>
+<line x1="42" y1="372" x2="1758" y2="372" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="417.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Completed orders</text>
+<text x="591.0" y="417.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">17,754</text>
+<text x="840.0" y="417.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">17,864</text>
+<text x="1107.0" y="417.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">17,864</text>
+<text x="1374.0" y="417.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+110</text>
+<text x="1631.0" y="417.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">0</text>
+<rect x="43" y="444" width="1714" height="72" fill="#F5F8FC"/>
+<line x1="42" y1="444" x2="1758" y2="444" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="489.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Rejected orders</text>
+<text x="591.0" y="489.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">113</text>
+<text x="840.0" y="489.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">3</text>
+<text x="1107.0" y="489.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">3</text>
+<text x="1374.0" y="489.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−110</text>
+<text x="1631.0" y="489.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">0</text>
+<line x1="42" y1="516" x2="1758" y2="516" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="561.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Late orders</text>
+<text x="591.0" y="561.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">5,300</text>
+<text x="840.0" y="561.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">3,985</text>
+<text x="1107.0" y="561.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">3,986</text>
+<text x="1374.0" y="561.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−1,315</text>
+<text x="1631.0" y="561.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+1</text>
+<rect x="43" y="588" width="1714" height="72" fill="#F5F8FC"/>
+<line x1="42" y1="588" x2="1758" y2="588" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="633.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Total lateness (min)</text>
+<text x="591.0" y="633.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">339,198.85</text>
+<text x="840.0" y="633.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">117,724.68</text>
+<text x="1107.0" y="633.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">117,725.14</text>
+<text x="1374.0" y="633.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−221,474.17</text>
+<text x="1631.0" y="633.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+0.47</text>
+<line x1="42" y1="660" x2="1758" y2="660" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="705.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Total travel distance (km)</text>
+<text x="591.0" y="705.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">41,512.39</text>
+<text x="840.0" y="705.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">31,397.19</text>
+<text x="1107.0" y="705.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">31,462.17</text>
+<text x="1374.0" y="705.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−10,115.20</text>
+<text x="1631.0" y="705.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+64.97</text>
+<rect x="43" y="732" width="1714" height="72" fill="#F5F8FC"/>
+<line x1="42" y1="732" x2="1758" y2="732" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="777.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Reposition distance (km)</text>
+<text x="591.0" y="777.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">0.00</text>
+<text x="840.0" y="777.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">0.00</text>
+<text x="1107.0" y="777.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">55.07</text>
+<text x="1374.0" y="777.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">0.00</text>
+<text x="1631.0" y="777.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+55.07</text>
+<line x1="42" y1="804" x2="1758" y2="804" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="849.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Composite objective</text>
+<text x="591.0" y="849.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">2,380,506.64</text>
+<text x="840.0" y="849.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">1,021,520.59</text>
+<text x="1107.0" y="849.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">1,021,687.89</text>
+<text x="1374.0" y="849.0" text-anchor="middle" fill="#16753A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">−1,358,986.05</text>
+<text x="1631.0" y="849.0" text-anchor="middle" fill="#D62828" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+167.30</text>
+<rect x="43" y="876" width="1714" height="72" fill="#F5F8FC"/>
+<line x1="42" y1="876" x2="1758" y2="876" stroke="#D8E2EE" stroke-width="1"/>
+<text x="70.0" y="921.0" text-anchor="start" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500">Runtime (sec)</text>
+<text x="591.0" y="921.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">97.58</text>
+<text x="840.0" y="921.0" text-anchor="middle" fill="#16458A" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">181.15</text>
+<text x="1107.0" y="921.0" text-anchor="middle" fill="#13213C" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">184.37</text>
+<text x="1374.0" y="921.0" text-anchor="middle" fill="#D97706" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+83.57</text>
+<text x="1631.0" y="921.0" text-anchor="middle" fill="#D97706" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">+3.22</text>
+<line x1="472" y1="154" x2="472" y2="948" stroke="#D8E2EE" stroke-width="1"/>
+<line x1="710" y1="154" x2="710" y2="948" stroke="#D8E2EE" stroke-width="1"/>
+<line x1="970" y1="154" x2="970" y2="948" stroke="#D8E2EE" stroke-width="1"/>
+<line x1="1244" y1="154" x2="1244" y2="948" stroke="#D8E2EE" stroke-width="1"/>
+<line x1="1504" y1="154" x2="1504" y2="948" stroke="#D8E2EE" stroke-width="1"/>
+<circle cx="60" cy="992" r="8" fill="#16753A"/>
+<text x="80.0" y="998.0" text-anchor="start" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400">Improvement effect compares After Improvement with Before Improvement.</text>
+<circle cx="797" cy="992" r="8" fill="#D62828"/>
+<text x="817.0" y="998.0" text-anchor="start" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400">Reposition effect compares With Repositioning with After Improvement.</text>
+<rect x="42" y="1030" width="1716" height="72" rx="12" fill="#F5F8FC"/>
+<text x="900.0" y="1062.0" text-anchor="middle" fill="#0B2F6B" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Best current configuration: improved Assignment and Routing without repositioning</text>
+<text x="900.0" y="1089.0" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400">Repositioning adds 64.97 km of travel and does not improve the on-time delivery rate.</text>
+</svg>
